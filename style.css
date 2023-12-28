@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.row{
+    display: flex;
+    gap: .5rem;
+    color: white;
+}
+#user-input{
+    color: white;
+}
+button{
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    width: 100px;
+    background-color: rgb(255, 252, 252);
+    color: rgb(255, 0, 0);
+}
